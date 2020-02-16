@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    background: black;
+}
+
+.bottom-banner {
+    background: black;
+}
+
+#contact-btn {
+    background: linear-gradient(to right, red, orange, yellow);
+    justify-content: center;
+}
+
+#bollywood-con {
+    width: 100%
+}
