@@ -26,18 +26,25 @@
 }
 .intro-text {
     font-size: 100px;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    font-style: italic;
     padding: 10px;
     color: lightyellow;
     text-shadow: 2px 2px #30475e;
-}
 
-.separate {
-    height: 10px;
-    width: 100%;
-    background-color: #30475e;
 }
-
+@keyframes top2bottom {
+	0%   {opacity: 0;
+		  -webkit-transform: translate3d(-100%,0,0);
+		  transform: translate3d(0,-25%,0);}
+	100% {opacity: 1;
+    	  -webkit-transform: translate3d(0,0,0);
+    	  transform: translate3d(0,0,0);}
+}
+.text-content {
+    animation-name: top2bottom;
+    animation-duration: 3s;
+}
 .images-sec {
     display: inline-flex;
 }
@@ -48,18 +55,21 @@
 #img-2 {
     width: 50%;
 }
-.about2 {
-    justify-content: space-around;
-}
+
 .about {
+    background-color: #30475e;
     display: inline-flex;
-    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .list-item {
     text-align: center;
-    font-family: "roboto slab", sans-serif;
+    font-family: 'Inter', sans-serif;
     padding: 50px;
+    font-size: 20px;
+    color: antiquewhite;
+    text-shadow: 2px 2px #30475e;
 }
 
 #bollywood-dance {
