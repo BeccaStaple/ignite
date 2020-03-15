@@ -28,7 +28,7 @@
     font-size: 100px;
     font-family: 'Inter', sans-serif;
     padding: 10px;
-    color: lightyellow;
+    color: #f5f0e3;
     text-shadow: 2px 2px black;
 
 }
@@ -60,7 +60,7 @@
     font-family: 'Inter', sans-serif;
     padding: 50px;
     font-size: 25px;
-    color: lightyellow;
+    color: #f5f0e3;
 }
 
 #bollywood-dance {
@@ -100,8 +100,8 @@
 /* testamonials section */
 
 .testamonial-sec {
-    background-color: #472b62;
-    color: lightyellow;
+    background-color: #f5f0e3;
+    color: black;
     font-family: "Cantarell", sans-serif;
     font-size: 20px;
 }
