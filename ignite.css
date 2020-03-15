@@ -31,6 +31,23 @@
     padding: 10px;
     color: #f8615a;
 }
+
+.separate {
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.images-sec {
+    display: inline-flex;
+}
+
+#img-1 {
+    width: 50%;
+}
+#img-2 {
+    width: 50%;
+}
 .about {
     display: inline-flex;
     /* to add - background color - */
