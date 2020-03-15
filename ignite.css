@@ -45,16 +45,9 @@
     animation-name: top2bottom;
     animation-duration: 3s;
 }
-.images-sec {
-    display: inline-flex;
-}
 
-#img-1 {
-    width: 50%;
-}
-#img-2 {
-    width: 50%;
-}
+
+/* services section */
 
 .about {
     background-color: #30475e;
@@ -87,6 +80,34 @@
     background-color: #003f5c;
     width: 25%;
 }
+
+/*images section */
+
+.images-sec {
+    display: inline-flex;
+}
+
+#img-1 {
+    width: 50%;
+    height: auto;
+}
+#img-2 {
+    width: 50%;
+    height: auto;
+}
+
+/* testamonials section */
+
+.testamonial-sec {
+    background-color: #472b62;
+    color: lightyellow;
+    font-family: "Cantarell", sans-serif;
+    padding: 5px, 40px;
+    font-size: 20px;
+}
+
+
+/* bottom sections */
 
 .bottom {
     text-align: center;
