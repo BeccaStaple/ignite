@@ -7,7 +7,7 @@
 
 .bob-image{
     background-image: url("images/BOB4.jpg");
-    width: 100%;
+    /*width: 100%; */
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
     width: 12%;
     height: auto;
     margin: 5px, 0 , 0, 5px;
-    padding: 0;
+    padding: 8px;
 }
 
 #first-img {
@@ -30,7 +30,7 @@
     font-style: italic;
     padding: 10px;
     color: lightyellow;
-    text-shadow: 2px 2px #30475e;
+    text-shadow: 2px 2px black;
 
 }
 @keyframes top2bottom {
@@ -67,27 +67,30 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     padding: 50px;
-    font-size: 20px;
-    color: antiquewhite;
-    text-shadow: 2px 2px #30475e;
+    font-size: 25px;
+    color: lightyellow;
 }
 
 #bollywood-dance {
-    background-color: #f6da63;
+    background-color: #fb5b5a;
+    width: 25%;
 }
 #dance-classes {
-    background-color: #eb8242;
+    background-color: #bc4873;
+    width: 25%;
 }
 #performances {
-    background-color: #da2d2d;
+    background-color: #472b62;
+    width: 25%;
 }
 #hen-parties {
-    background-color: #9d0b0b;
+    background-color: #003f5c;
+    width: 25%;
 }
 
 .bottom {
     text-align: center;
-    background: #30475e;
+    background: #003f5c;
 }
 
 #contact-btn {
@@ -112,4 +115,8 @@
 }
 .icon:hover {
     opacity: 0.5;
+}
+
+.must-have {
+    font-size: 5px;
 }
