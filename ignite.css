@@ -20,7 +20,6 @@
     padding: 0;
 }
 
-
 #first-img {
     width: 100%;
     height: auto;
@@ -29,13 +28,14 @@
     font-size: 100px;
     font-family: "Roboto Slab", sans-serif;
     padding: 10px;
-    color: #f8615a;
+    color: lightyellow;
+    text-shadow: 2px 2px #30475e;
 }
 
 .separate {
     height: 10px;
     width: 100%;
-    background-color: black;
+    background-color: #30475e;
 }
 
 .images-sec {
