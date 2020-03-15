@@ -17,7 +17,7 @@
     width: 12%;
     height: auto;
     margin: 5px, 0 , 0, 5px;
-    padding: 8px;
+    padding: 10px;
 }
 
 #first-img {
@@ -107,7 +107,7 @@
 }
 
 .testamonial-txt {
-    padding: 25px;
+    padding: 30px;
 }
 /* bottom sections */
 
@@ -120,7 +120,7 @@
     background: linear-gradient(to top, red, orange);
     margin: 10px;
     font-size: 20px;
-    padding: 5px; 
+    padding: 8px; 
     border-radius: 10px;
 }
 #contact-btn:hover {
@@ -130,6 +130,7 @@
 #social {
     display: inline-flex;
     justify-content: space-around;
+    padding: 5px;
 }
 
 .icon {
@@ -140,6 +141,10 @@
     opacity: 0.5;
 }
 
+.rebecca {
+    font-family: sans-serif;
+    padding: 3px;
+}
 .must-have {
     font-size: 5px;
 }
