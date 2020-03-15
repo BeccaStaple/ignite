@@ -27,7 +27,6 @@
 .intro-text {
     font-size: 100px;
     font-family: 'Inter', sans-serif;
-    font-style: italic;
     padding: 10px;
     color: lightyellow;
     text-shadow: 2px 2px black;
@@ -85,6 +84,8 @@
 
 .images-sec {
     display: inline-flex;
+    margin: 0;
+    padding: 0;
 }
 
 #img-1 {
@@ -102,11 +103,12 @@
     background-color: #472b62;
     color: lightyellow;
     font-family: "Cantarell", sans-serif;
-    padding: 5px, 40px;
     font-size: 20px;
 }
 
-
+.testamonial-txt {
+    padding: 25px;
+}
 /* bottom sections */
 
 .bottom {
