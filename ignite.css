@@ -85,7 +85,7 @@ body {
 /*images section */
 
 .images-sec {
-    display: inline-flex;
+    display: flex;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -129,6 +129,7 @@ body {
     padding: 10px;
 }
 
+/*
 #contact-btn {
     background: linear-gradient(to top, red, orange);
     margin: 10px;
@@ -139,6 +140,7 @@ body {
 #contact-btn:hover {
     background: red;
 }
+*/
 
 .social {
     display: inline;
