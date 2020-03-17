@@ -48,7 +48,7 @@ body {
 .about {
     display: inline-flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
 }
 
@@ -56,25 +56,30 @@ body {
     text-align: center;
     font-family: 'Inter', sans-serif;
     padding: 20px;
-    font-size: 25px;
+    font-size: 95%;
     color: #f5f0e3;
 }
 
 #bollywood-dance {
     background-color: #ff7315;
-    width: 25%;
+    width: 20%;
+}
+#bollywood-dance:hover {
+    background-color: orangered;
 }
 #dance-classes {
     background-color: #3a3535;
-    width: 25%;
+    width: 20%;
+}
+#dance-classes:hover {
+    background-color: orangered;
 }
 #performances {
     background-color: #232020;
-    width: 25%;
+    width: 20%;
 }
-#hen-parties {
+#performances:hover {
     background-color: orangered;
-    width: 25%;
 }
 
 /*images section */
@@ -84,6 +89,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #img-1 {
@@ -129,7 +136,7 @@ body {
 #social {
     display: inline-flex;
     justify-content: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .icon {
