@@ -102,6 +102,13 @@ body {
     height: auto;
 }
 
+/*
+.about-txt {
+    color: white;
+    font-family: "Cantarell", sans-serif;
+    font-size: 20px;
+}
+*/
 /* testamonials section */
 
 .testamonial-sec {
@@ -133,10 +140,10 @@ body {
     background: red;
 }
 
-#social {
-    display: inline-flex;
+.social {
+    display: inline;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .icon {
