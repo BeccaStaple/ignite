@@ -14,20 +14,20 @@ body {
 }
 
 #logo {
-    width: 20%;
+    width: 30%;
     height: auto;
-    margin: 5px, 0 , 0, 5px;
-    padding: 10px;
 }
 
+/*
 .intro-text {
     font-size: 100px;
     font-family: 'Inter', sans-serif;
     padding: 10px;
     color: #f5f0e3;
     text-shadow: 2px 2px black;
-
 }
+*/
+
 /* animation 
 @keyframes top2bottom {
 	0%   {opacity: 0;
@@ -82,6 +82,15 @@ body {
     background-color: orangered;
 }
 
+.first-img-sec {
+    text-align: center;
+}
+
+#first-img {
+    width: 98%;
+    height: auto;
+}
+
 /*images section */
 
 .images-sec {
@@ -102,20 +111,16 @@ body {
     height: auto;
 }
 
-/*
+
+/* about section */
+
 .about-txt {
     color: white;
     font-family: "Cantarell", sans-serif;
-    font-size: 20px;
-}
-*/
-/* testamonials section */
-
-.testamonial-sec {
-    background-color: #f5f0e3;
-    color: black;
-    font-family: "Cantarell", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 20px;
+    text-emphasis: 20px;
+    margin: 15px 100px 15px 100px;
 }
 
 .testamonial-txt {
