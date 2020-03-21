@@ -18,30 +18,7 @@ body {
     height: auto;
 }
 
-/*
-.intro-text {
-    font-size: 100px;
-    font-family: 'Inter', sans-serif;
-    padding: 10px;
-    color: #f5f0e3;
-    text-shadow: 2px 2px black;
-}
-*/
 
-/* animation 
-@keyframes top2bottom {
-	0%   {opacity: 0;
-		  -webkit-transform: translate3d(-100%,0,0);
-		  transform: translate3d(0,-25%,0);}
-	100% {opacity: 1;
-    	  -webkit-transform: translate3d(0,0,0);
-    	  transform: translate3d(0,0,0);}
-}
-.text-content {
-    animation-name: top2bottom;
-    animation-duration: 3s;
-}
-*/
 
 /* services section */
 
@@ -66,6 +43,7 @@ body {
 }
 #bollywood-dance:hover {
     background-color: orangered;
+    cursor: pointer;
 }
 #dance-classes {
     background-color: #3a3535;
@@ -73,6 +51,7 @@ body {
 }
 #dance-classes:hover {
     background-color: orangered;
+    cursor: pointer;
 }
 #performances {
     background-color: #232020;
@@ -80,7 +59,50 @@ body {
 }
 #performances:hover {
     background-color: orangered;
+    cursor: pointer;
 }
+
+
+/* pop-up content */
+.contact-modal {
+    display: none;
+}
+
+.modal-content {
+    background-color: black;
+    color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 10px 10px 5px orangered;
+    font-size: 30px;
+    font-family: "Sen", sans-serif;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 40px;
+}
+
+.close:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.social-contact {
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+.follow {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* first lot of images */
 
 .first-img-sec {
     display: flex;
@@ -90,6 +112,9 @@ body {
     width: 50%;
     height: auto;
 }
+
+
+
 
 /*images section */
 
