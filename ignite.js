@@ -1,0 +1,1 @@
+window.location = "https://petitebeccas.wixsite.com/ignite";
